@@ -12,7 +12,9 @@ public class Campeonato {
 
         for(cocheDeCarreras c:cochesito){
                 c.competir();
+            System.out.println("=========");
                 c.mostrarDatos();
+            System.out.println("=========");
         }
     }
 }

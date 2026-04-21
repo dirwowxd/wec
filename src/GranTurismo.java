@@ -13,7 +13,7 @@ public class GranTurismo extends cocheDeCarreras{
         if (pesoExtraLastre >= 100) {
             System.out.println("El piloto no lo puede maniobrar bien entero perkin gil jsjsjsjsj con : " + pesoExtraLastre + " kg");
         } else {
-            System.out.println("El piloto es una puta maquina y lo hizo entero bkn con : "+ pesoExtraLastre + " kg");
+            System.out.println("El piloto es una puta maquina y lo hizo entero bkn con : " + pesoExtraLastre + " kg");
         }
     }
 }

@@ -38,5 +38,6 @@ public abstract class cocheDeCarreras {
     public void mostrarDatos() {
         System.out.println("Marca: " + marca);
         System.out.println("Modelo: " + modelo);
+        System.out.println("Velocidad maxima: " + velocidadMaxima);
     }
 }
