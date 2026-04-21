@@ -10,6 +10,10 @@ public class GranTurismo extends cocheDeCarreras{
 
     @Override
     public void competir() {
-        System.out.println("El piloto del Gran Turismo " + getMarca() + " está gestionando las curvas con un lastre extra de " + this.pesoExtraLastre + " kg.");
+        if (pesoExtraLastre >= 100) {
+            System.out.println("El piloto no lo puede maniobrar bien entero perkin gil jsjsjsjsj con : " + pesoExtraLastre + " kg");
+        } else {
+            System.out.println("El piloto es una puta maquina y lo hizo entero bkn con : "+ pesoExtraLastre + " kg");
+        }
     }
 }

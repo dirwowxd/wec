@@ -7,6 +7,7 @@ public abstract class cocheDeCarreras {
         this.marca = marca;
         this.modelo = modelo;
         this.velocidadMaxima = velocidadMaxima;
+
     }
 
     public String getMarca() {
